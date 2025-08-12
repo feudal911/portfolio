@@ -25,7 +25,7 @@ const translations = {
         'hero.cta': 'Ver Meus Trabalhos',
         'about.title': 'Sobre Mim',
         'about.description': 'Sou um Desenvolvedor Front-End apaixonado com expertise em tecnologias web modernas. Adoro criar interfaces bonitas, funcionais e amigáveis que fazem a diferença. Baseado no Brasil, trago uma perspectiva única para cada projeto.',
-        'about.stats.experience': 'Anos de Experiência',
+        'about.stats.experience': 'Meses de Experiência',
         'about.stats.projects': 'Projetos',
         'about.stats.dedication': 'Dedicação',
         'skills.title': 'Minhas Habilidades',
@@ -50,7 +50,7 @@ const translations = {
         'hero.cta': 'See My Work',
         'about.title': 'About Me',
         'about.description': 'I\'m a passionate Front-End Developer with expertise in modern web technologies. I love creating beautiful, functional, and user-friendly interfaces that make a difference. Based in Brazil, I bring a unique perspective to every project.',
-        'about.stats.experience': 'Years Experience',
+        'about.stats.experience': 'Months Experience',
         'about.stats.projects': 'Projects',
         'about.stats.dedication': 'Dedication',
         'skills.title': 'My Skills',
@@ -704,4 +704,5 @@ class PortfolioApp {
 // Initialize when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
     new PortfolioApp();
+
 });
