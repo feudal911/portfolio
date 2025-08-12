@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caio Marani - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <div class="logo-icon">CM</div>
+                </div>
+                <nav class="nav-links">
+                    <a href="#home" class="nav-link active" data-translate="nav.home">HOME</a>
+                    <a href="#about" class="nav-link" data-translate="nav.about">ABOUT</a>
+                    <a href="#skills" class="nav-link" data-translate="nav.skills">SKILLS</a>
+                    <a href="#works" class="nav-link" data-translate="nav.works">WORKS</a>
+                    <a href="#contact" class="nav-link" data-translate="nav.contact">CONTACT</a>
+                </nav>
+                <div class="nav-buttons">
+                    <button class="language-toggle" id="languageToggle">
+                        <span class="language-icon">🇧🇷</span>
+                    </button>
+                    <button class="theme-toggle" id="themeToggle">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-subtitle" data-translate="hero.subtitle">HELLO, I'M</p>
+                    <h1 class="hero-title">CAIO</h1>
+                    <p class="hero-role" data-translate="hero.role">Full Front-End Developer</p>
+                    <p class="hero-description" data-translate="hero.description">
+                        Passionate about creating modern and intuitive web experiences with cutting-edge front-end technologies. 
+                        From Brazil, bringing creativity and technical expertise to every project.
+                    </p>
+                    <button class="cta-button">
+                        <div class="button-circle">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <span data-translate="hero.cta">See My Work</span>
+                    </button>
+                </div>
+                <div class="hero-visual">
+                    <div class="red-circle">
+                        <img src="img/profile.jpg" alt="Caio Marani" class="hero-profile-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Pagination -->
+        <div class="pagination">
+            <span class="current-page">01</span>
+            <div class="pagination-line"></div>
+            <span class="total-pages">05</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title" data-translate="about.title">About Me</h2>
+                    <p class="about-description" data-translate="about.description">
+                        I'm a passionate Full Front-End Developer with expertise in modern web technologies and advanced front-end frameworks. 
+                        I love creating beautiful, functional, and user-friendly interfaces that make a difference.
+                        Based in Brazil, I bring a unique perspective to every project.
+                    </p>
+                    <div class="design-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label" data-translate="about.stats.experience">Months Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label" data-translate="about.stats.projects">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label" data-translate="about.stats.dedication">Dedication</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="design-circle">
+                        <div class="design-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title" data-translate="skills.title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-visual">
+                        <div class="skill-circle"></div>
+                    </div>
+                    <h3>HTML5 & CSS3</h3>
+                    <p data-translate="skills.html.description">Semantic markup, CSS Grid, Flexbox & Animations</p>
+                    <div class="skill-level">
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-visual">
+                        <div class="skill-circle"></div>
+                    </div>
+                    <h3>JavaScript ES6+</h3>
+                    <p data-translate="skills.js.description">Modern JS, Async/Await, Modules & APIs</p>
+                    <div class="skill-level">
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-visual">
+                        <div class="skill-circle"></div>
+                    </div>
+                    <h3>React & Next.js</h3>
+                    <p data-translate="skills.react.description">Hooks, Context, SSR & Performance</p>
+                    <div class="skill-level">
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-visual">
+                        <div class="skill-circle"></div>
+                    </div>
+                    <h3>TypeScript</h3>
+                    <p data-translate="skills.typescript.description">Type safety & advanced patterns</p>
+                    <div class="skill-level">
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Works Section -->
+    <section id="works" class="works-section">
+        <div class="container">
+            <h2 class="section-title" data-translate="works.title">My Works</h2>
+            <div class="works-grid">
+                <div class="work-card" data-project="1">
+                    <div class="work-preview">
+                        <div class="work-image">
+                            <div class="work-circle"></div>
+                        </div>
+                        <h3>E-commerce Platform</h3>
+                        <p>Modern online store with React & Firebase</p>
+                        <div class="work-tech">
+                            <span>React</span>
+                            <span>Firebase</span>
+                            <span>TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-card" data-project="2">
+                    <div class="work-preview">
+                        <div class="work-image">
+                            <div class="work-circle"></div>
+                        </div>
+                        <h3>Task Management App</h3>
+                        <p>Collaborative project management tool</p>
+                        <div class="work-tech">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                            <span>Vuetify</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-card" data-project="3">
+                    <div class="work-preview">
+                        <div class="work-image">
+                            <div class="work-circle"></div>
+                        </div>
+                        <h3>Weather Dashboard</h3>
+                        <p>Real-time weather data visualization</p>
+                        <div class="work-tech">
+                            <span>React</span>
+                            <span>Chart.js</span>
+                            <span>OpenWeather API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-card" data-project="4">
+                    <div class="work-preview">
+                        <div class="work-image">
+                            <div class="work-circle"></div>
+                        </div>
+                        <h3>Portfolio Website</h3>
+                        <p>Modern personal portfolio design</p>
+                        <div class="work-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-card" data-project="5">
+                    <div class="work-preview">
+                        <div class="work-image">
+                            <div class="work-circle"></div>
+                        </div>
+                        <h3>AI Chat Interface</h3>
+                        <p>Modern chat interface with AI integration</p>
+                        <div class="work-tech">
+                            <span>Next.js</span>
+                            <span>TypeScript</span>
+                            <span>Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Container -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-body">
+                <h3 id="modalTitle"></h3>
+                <p id="modalDescription"></p>
+                <div class="modal-features">
+                    <h4>Key Features:</h4>
+                    <ul id="modalFeatures"></ul>
+                </div>
+                <div class="modal-links">
+                    <a href="#" class="modal-link">Live Demo</a>
+                    <a href="#" class="modal-link">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content contact-modal">
+            <span class="modal-close">&times;</span>
+            <div class="modal-body">
+                <h3>Get In Touch</h3>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="contactName">Nome</label>
+                        <input type="text" id="contactName" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactEmail">Email</label>
+                        <input type="email" id="contactEmail" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactMessage">Mensagem</label>
+                        <textarea id="contactMessage" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="contact-submit-btn">
+                        <div class="button-circle">
+                            <i class="fas fa-paper-plane"></i>
+                        </div>
+                        <span>Enviar Mensagem</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+                            <div class="contact-content">
+                    <h2 class="section-title" data-translate="contact.title">Let's Work Together</h2>
+                    <p class="contact-description" data-translate="contact.description">
+                        Ready to bring your ideas to life? I'm always excited to work on new front-end projects 
+                        and create amazing digital experiences with cutting-edge technologies.
+                    </p>
+                    <button class="contact-button" id="contactButton">
+                        <div class="button-circle">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <span data-translate="contact.cta">Get In Touch</span>
+                    </button>
+                </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-icon">C</div>
+                </div>
+                <p class="footer-text">Created By caio.marani | © 2024 All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
